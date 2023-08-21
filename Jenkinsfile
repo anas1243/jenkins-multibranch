@@ -3,7 +3,7 @@ pipeline {
     stages{
         stage('build'){
             steps {
-                echo "This is the dev branch after adding github webhook    !!!"
+                echo "This is the dev branch after adding github webhook"
             }
         }
     }
